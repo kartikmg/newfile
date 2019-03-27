@@ -1,0 +1,6 @@
+language: c
+sudo : false # only for faster builds
+compliler: gcc
+script:
+- gcc -o fact fact.c
+- ./fact
