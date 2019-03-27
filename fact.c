@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main()
 {
-    int n=5, i;
+    int n=5;int i;
     unsigned long long factorial = 1;
 
     //printf("Enter an integer: ");
